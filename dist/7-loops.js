@@ -1,33 +1,44 @@
 "use strict";
 /*Loops and Strings
 //count=1; (Initializer statement)
-//count=<=5; (Stoping Statement)
-//count++; (Updation Statement)
-for (count = 1; count <= 5; count++) {
+//count=<=5; (Stooping Statement)
+//count++; (Updating Statement)
+for (let count = 1; count <= 5; count++) {
   console.log("Ramzan Akram");
 }*/
-/*Example 01 Calculate 1 to n numbers (Loop)
-let sum = 0;
-let n = 100
-for (let i = 1; i <= n; i++) {
-  sum = sum + i;
-}
-console.log("sum =", sum);
-for (i = 1; i <= 5; i++) {
-  console.log("i = ", i);
-}*/
+//Example 01 Calculate 1 to n numbers (Loop)
+// let n = 100;
+// for (let i = 1; i <= n; i++) console.log("n =", i);
+//This example need to be watched from shardha channel
+// let sum = 0;
+// let n = 100;
+// for (let i = 1; i <= n; i++) {
+//   sum = sum + i;
+// }
+// console.log("sum =", sum);
+// for (let i = 1; i <= 5; i++) {
+//   console.log("i = ", i);
+// }
 /*Infinite Loop
+
 //Infinite loop is never ending loop its stoping condition is never end.
+
 //Example that we never run
+
 for (i = 1; i >= 0; i++){
   console.log("i = ", i);
 }*/
-/*While Loop (Same work can be donw with while loop that we do with the for loop but the syntax is little bit diffrent)
-let i = 1;
-while (i <= 10) {
-  console.log("i = ", i);
-  i++;
-}*/
+//While Loop (Same work can be done with while loop that we do with the for loop but the syntax is little bit different)
+// let i = 1;
+// while (i <= 10) {
+//   console.log("i = ", i);
+//   i++;
+// }
+let r = 1;
+while (r <= 10) {
+    console.log("r = ", r);
+    r++;
+}
 /*Do while loop
 let i = 1;
 do {

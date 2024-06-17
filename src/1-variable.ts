@@ -37,3 +37,6 @@
 //4-We can name our variable as name but name is a keyword so we cannot use it same goes for start with upper case like Person we also cannot use it as we use it on specific cases in Object Oriented Programming.
 //5- We use constant number in uppercase like PI as PI has constant value.
 //6- We ensure that we always use our variables names link to the name that we use that is for others developers when they read our code.
+let x: number = 5;
+let y: number = "10";
+console.log(x + y);
